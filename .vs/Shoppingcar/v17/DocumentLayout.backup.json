@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NK 2314\\Desktop\\New folder\\WinFormsCalculator\\Shoppingcart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{664D77F7-932C-4D44-AFD6-06858216B34B}|Shoppingcar.csproj|c:\\users\\nk 2314\\desktop\\new folder\\shoppingcar\\shoppingcar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{664D77F7-932C-4D44-AFD6-06858216B34B}|Shoppingcar.csproj|c:\\users\\nk 2314\\desktop\\new folder\\shoppingcar\\shoppingcar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\NK 2314\\Desktop\\New folder\\Shoppingcar\\Shoppingcar\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\Shoppingcar\\Shoppingcar\\Form1.cs",
+              "ToolTip": "C:\\Users\\NK 2314\\Desktop\\New folder\\Shoppingcar\\Shoppingcar\\Form1.cs",
+              "RelativeToolTip": "..\\..\\Shoppingcar\\Shoppingcar\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:56:57.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NK 2314\\Desktop\\New folder\\Shoppingcar\\Shoppingcar\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\Shoppingcar\\Shoppingcar\\Form1.cs",
+              "ToolTip": "C:\\Users\\NK 2314\\Desktop\\New folder\\Shoppingcar\\Shoppingcar\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\Shoppingcar\\Shoppingcar\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T00:37:32.721Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

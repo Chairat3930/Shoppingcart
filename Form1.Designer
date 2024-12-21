@@ -1,0 +1,153 @@
+﻿namespace Shoppingcar
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            cha_Coffee = new CheckBox();
+            cha_GreenTea = new CheckBox();
+            button1 = new Button();
+            tb_Coffee_Price = new TextBox();
+            tb_GreenTea_Quantity = new TextBox();
+            tb_Coffee_Qunatity = new TextBox();
+            tb_GreenTea_Price = new TextBox();
+            tb_total = new TextBox();
+            labal1 = new Label();
+            SuspendLayout();
+            // 
+            // cha_Coffee
+            // 
+            cha_Coffee.AutoSize = true;
+            cha_Coffee.Location = new Point(57, 42);
+            cha_Coffee.Name = "cha_Coffee";
+            cha_Coffee.Size = new Size(61, 19);
+            cha_Coffee.TabIndex = 0;
+            cha_Coffee.Text = "Coffee";
+            cha_Coffee.UseVisualStyleBackColor = true;
+            cha_Coffee.CheckedChanged += cha_Coffee_CheckedChanged;
+            // 
+            // cha_GreenTea
+            // 
+            cha_GreenTea.AutoSize = true;
+            cha_GreenTea.Location = new Point(57, 77);
+            cha_GreenTea.Name = "cha_GreenTea";
+            cha_GreenTea.Size = new Size(77, 19);
+            cha_GreenTea.TabIndex = 1;
+            cha_GreenTea.Text = "Green Tea";
+            cha_GreenTea.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(445, 42);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 108);
+            button1.TabIndex = 2;
+            button1.Text = "Check out";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // tb_Coffee_Price
+            // 
+            tb_Coffee_Price.Location = new Point(164, 40);
+            tb_Coffee_Price.Name = "tb_Coffee_Price";
+            tb_Coffee_Price.Size = new Size(100, 23);
+            tb_Coffee_Price.TabIndex = 3;
+            tb_Coffee_Price.Text = "20";
+            tb_Coffee_Price.TextChanged += tb_Coffee_Price_TextChanged;
+            // 
+            // tb_GreenTea_Quantity
+            // 
+            tb_GreenTea_Quantity.Location = new Point(300, 77);
+            tb_GreenTea_Quantity.Name = "tb_GreenTea_Quantity";
+            tb_GreenTea_Quantity.Size = new Size(100, 23);
+            tb_GreenTea_Quantity.TabIndex = 4;
+            // 
+            // tb_Coffee_Qunatity
+            // 
+            tb_Coffee_Qunatity.Location = new Point(300, 42);
+            tb_Coffee_Qunatity.Name = "tb_Coffee_Qunatity";
+            tb_Coffee_Qunatity.Size = new Size(100, 23);
+            tb_Coffee_Qunatity.TabIndex = 5;
+            tb_Coffee_Qunatity.Text = "2";
+            // 
+            // tb_GreenTea_Price
+            // 
+            tb_GreenTea_Price.Location = new Point(164, 75);
+            tb_GreenTea_Price.Name = "tb_GreenTea_Price";
+            tb_GreenTea_Price.Size = new Size(100, 23);
+            tb_GreenTea_Price.TabIndex = 6;
+            // 
+            // tb_total
+            // 
+            tb_total.Location = new Point(300, 131);
+            tb_total.Name = "tb_total";
+            tb_total.Size = new Size(100, 23);
+            tb_total.TabIndex = 7;
+            tb_total.TextChanged += tb_total_TextChanged;
+            // 
+            // labal1
+            // 
+            labal1.AutoSize = true;
+            labal1.Location = new Point(236, 139);
+            labal1.Name = "labal1";
+            labal1.Size = new Size(32, 15);
+            labal1.TabIndex = 8;
+            labal1.Text = "Total";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(labal1);
+            Controls.Add(tb_total);
+            Controls.Add(tb_GreenTea_Price);
+            Controls.Add(tb_Coffee_Qunatity);
+            Controls.Add(tb_GreenTea_Quantity);
+            Controls.Add(tb_Coffee_Price);
+            Controls.Add(button1);
+            Controls.Add(cha_GreenTea);
+            Controls.Add(cha_Coffee);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private CheckBox cha_Coffee;
+        private CheckBox cha_GreenTea;
+        private Button button1;
+        private TextBox tb_Coffee_Price;
+        private TextBox tb_GreenTea_Quantity;
+        private TextBox tb_Coffee_Qunatity;
+        private TextBox tb_GreenTea_Price;
+        private TextBox tb_total;
+        private Label labal1;
+    }
+}
